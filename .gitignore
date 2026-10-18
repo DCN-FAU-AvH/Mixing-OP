@@ -1,0 +1,15 @@
+# macOS metadata and Finder files
+.DS_Store
+._*
+.AppleDouble
+.LSOverride
+Icon[[:cntrl:]]
+__MACOSX/
+.Spotlight-V100/
+.Trashes/
+.fseventsd/
+.TemporaryItems/
+.DocumentRevisions-V100/
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.apdisk
