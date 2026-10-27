@@ -2,7 +2,7 @@
 
 This repository contains the PyTorch implementation accompanying the paper
 
-> W. Hu, R. Lai, and Z. Li. *Self-Supervised In-Context Operator Learning for Optimal Mixing in Incompressible Flows.*
+> W. Hu, R. Lai, and Z. Li. *Self-Supervised In-Context Operator Learning for Optimal Mixing in Incompressible Flows.* arXiv:2610.25556, 2026.
 
 A transformer maps two initial particle clouds, carrying fixed labels `+1` and `-1`, to time-dependent coefficients of a divergence-free velocity basis. Training differentiates through RK4 particle trajectories and minimizes the terminal squared `Ḣ^{-1}` mix-norm plus kinetic energy. No precomputed optimal controls are required. The code supports four partition families in each of two and three dimensions.
 
@@ -126,11 +126,11 @@ FAMILY=rotation_plane LAM_KIN=2e-2 sbatch run_train_3d.sh
 If you use this code in your research, please cite
 
 ```bibtex
-@unpublished{hu2026mixing,
-  title   = {Self-Supervised In-Context Operator Learning for Optimal Mixing in Incompressible Flows},
-  author  = {Hu, Weiwei and Lai, Rongjie and Li, Ziqian},
-  year    = {2026},
-  note    = {Manuscript},
+@article{hu2026self,
+  title={Self-Supervised In-Context Operator Learning for Optimal Mixing in Incompressible Flows},
+  author={Hu, Weiwei and Lai, Rongjie and Li, Ziqian},
+  journal={arXiv preprint arXiv:2610.25556},
+  year={2026}
 }
 ```
 
